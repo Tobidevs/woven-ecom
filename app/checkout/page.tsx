@@ -18,8 +18,8 @@ export default function CheckoutPage() {
 
   if (total === 0 || items.length === 0) {
     return (
-      <div>
-        <h1> Your Cart is Empty.</h1>
+      <div className="container mx-auto px-4 py-8 text-center">
+        <h1 className="text-3xl font-bold mb-4">Your Cart is Empty</h1>
       </div>
     );
   }
